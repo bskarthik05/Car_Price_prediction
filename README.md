@@ -107,8 +107,6 @@ The trained models were evaluated using the following metrics:
   * **Root Mean Squared Error (RMSE):** The square root of MSE, providing the error in the same units as the target variable.
   * **R-squared ($R^2$):** Represents the proportion of the variance in the dependent variable that is predictable from the independent variables. A higher $R^2$ indicates a better fit.
 
-`[Mention any other evaluation techniques you specifically used, e.g., 'Residual plots were inspected to ensure assumptions of linearity and homoscedasticity were met.']`
-
 ## Key Findings and Insights
 
   * `[Summarize most important findings]`
@@ -143,7 +141,7 @@ The trained models were evaluated using the following metrics:
 The notebook will:
 
   * Load the `CAR DETAILS FROM CAR DEKHO.csv` dataset.
-  * Perform data preprocessing, including feature engineering for 'Car\_Age' and encoding of categorical variables.
+  * Perform data preprocessing.
   * Train Linear and Lasso Regression models.
   * Evaluate models and print performance metrics.
 
